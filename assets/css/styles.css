@@ -18,7 +18,7 @@
   /*========== Font and typography ==========*/
   --body-font: myFont, sans-serif;
   --biggest-font-size: 4rem;
-  --h1-font-size: 2rem;
+  --h1-font-size: 1.8rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: .938rem;
@@ -28,7 +28,7 @@
 }
 @media screen and (min-width: 1024px) {
   :root {
-    --biggest-font-size: 20rem;
+    --biggest-font-size: 6rem;
     --h1-font-size: 3rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
@@ -182,7 +182,7 @@ p {
 
 .home__container {
   row-gap: 2rem;
-  padding-top: 8rem;
+  padding-top: 5rem;
   justify-content: center;
 }
 
@@ -345,6 +345,10 @@ padding: 1rem;
     font-size: 2rem;
   }
 
+  .section__title {
+    font-size: 1.5rem;
+  }
+
 
 }
 
@@ -371,9 +375,7 @@ padding: 1rem;
     box-shadow: none;
   }
 
-  .home__title {
-    font-size: 4rem;
-  }
+ 
 
 
 }
